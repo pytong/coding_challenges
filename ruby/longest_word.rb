@@ -8,6 +8,12 @@
 # another line
 # Each line has one or more words. Each word is separated by space char.
 
+# OUTPUT SAMPLE:
+# Print the longest word in the following way.
+# some
+# another
+
+
 File.open(ARGV[0]).each_line do |line|
   
   line.strip!
